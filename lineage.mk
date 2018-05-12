@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,16 +22,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Device
-$(call inherit-product, device/bq/bardockpro/device.mk)
+$(call inherit-product, device/bq/bardock/device.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-bq
 
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := BQ
-PRODUCT_DEVICE := bardockpro
-PRODUCT_NAME := lineage_bardockpro
+PRODUCT_DEVICE := bardock
+PRODUCT_NAME := lineage_bardock
 PRODUCT_BRAND := BQ
-PRODUCT_MODEL := Aquaris X Pro
+PRODUCT_MODEL := Aquaris X
 PRODUCT_MANUFACTURER := BQ
 BOARD_VENDOR := BQ
 
