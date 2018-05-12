@@ -311,8 +311,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.target.rc \
-    init.qcom.syspart_fixup.sh \
-    init.qcom.wifi.sh \
     ueventd.qcom.rc
 
 # RenderScript
